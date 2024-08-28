@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "muhammad-raihan37-mentalhealthtracker.pbp.cs.ui.ac.id"]
 # Application definition
 
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
