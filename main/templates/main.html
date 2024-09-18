@@ -2,6 +2,12 @@
 {% block content %}
 <h1>Mental Health Tracker</h1>
 
+<a href="{% url 'main:logout' %}">
+  <button>Logout</button>
+</a>
+
+<h5>Sesi terakhir login: {{ last_login }}</h5>
+
 <h5>NPM: </h5>
 <p>{{ npm }}<p>
 
